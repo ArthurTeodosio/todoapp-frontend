@@ -11,7 +11,7 @@ export class AppComponent {
  arrayDeTarefas: Tarefa[] = [];
  apiURL : string;
  constructor(private http: HttpClient) {
- this.apiURL = 'todoapp-backend-ac.vercel.app';
+ this.apiURL = 'https://todoapp-backend-git-master-arthurteodosio.vercel.app';
  this.READ_tarefas();
  }
  CREATE_tarefa(descricaoNovaTarefa: string) {
